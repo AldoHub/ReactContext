@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  background: #333;
+  color: #fff;
+}
+
+.App {
+  background: #333;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+ 
+}
+
+form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  -webkit-box-shadow: 0px 10px 41px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 10px 41px -5px rgba(0,0,0,1);
+  box-shadow: 0px 10px 41px -5px rgba(0,0,0,1);
+}
+form input {
+  padding: 10px;
+  font-size: 1.4rem;
+  border: 1px solid #17FF8A;
+  background: none;
+
+
+}
+
+form input[type="text"]{
+  border-radius:5px 0px 0px 5px;
+ color: #fff;
+}
+
+form input[type="submit"]{
+border-radius: 0px 5px 5px 0px;
+  background: #17FF8A;
+  color: #111;
+}
+
+.weather {
+  text-align: center;
+   
+}
+.weather .icon {
+  width: 120px;
+ }
+.weather .title {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #17FF8A;
+  
+}
+.weather .time{
+  font-size: 2.7rem;
+  margin-top: -40px;
+}
+.weather .conditions {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px dotted #17FF8A;
+  justify-items:center;
+
+}
+.weather .conditions p  {
+ font-size: 2.4rem;
+ padding: 0;
+ margin: 0;
+}
+
+.weather .powered {
+  color: #888;
+  text-align: right
+}
